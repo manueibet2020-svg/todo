@@ -11,7 +11,7 @@ public class TodoController {
     @GetMapping
     public List<Todo> getTodos() {
         return Arrays.asList(
-            new Todo(1L, "Texte choisi par MASTER", true),
+            new Todo(1L, "Texte choisi par CONFLIT", true),
             new Todo(2L, "Maitriser les branches Git", false)
         );
     }
