@@ -11,7 +11,7 @@ public class TodoController {
     @GetMapping
     public List<Todo> getTodos() {
         return Arrays.asList(
-            new Todo(1L, "Apprendre Git avec Spring Boot", true),
+            new Todo(1L, "Maîtriser Git sur la branche Master", true),
             new Todo(2L, "Maitriser les branches Git", false)
         );
     }
